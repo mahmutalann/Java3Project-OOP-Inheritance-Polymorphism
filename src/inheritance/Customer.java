@@ -4,3 +4,4 @@ public class Customer { //Inheritance provides that listing attributes of others
 	int id;
 	String customerNumber;	
 }
+//base or super
