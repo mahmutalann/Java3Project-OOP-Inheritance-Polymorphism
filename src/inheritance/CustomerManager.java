@@ -1,15 +1,21 @@
 package inheritance;
 
 public class CustomerManager {
-		/*public void add(Customer customer) {
-			System.out.println(customer.customerNumber + "added in Individual Customer");
+		/*
+		 public void add(IndividualCustomer customer) {
+			System.out.println(customer.customerNumber + " added in Individual Customer");
 		}
 		
-		public void add(Customer customer) {
+		public void add(CorporateCustomer customer) {
 			System.out.println(customer.customerNumber + " added in Corporate Customer");
 		}
+		
 
-*/
+		public void add(StrangerCustomer customer) {
+			System.out.println(customer.customerNumber + " added in Stranger Customer");
+		}
+		*/
+		
 		public void add(Customer customer) { //Polymorphism provides that it can hold a reference to classes that extend the Customer class.
 			System.out.println(customer.customerNumber + " added");
 		}
