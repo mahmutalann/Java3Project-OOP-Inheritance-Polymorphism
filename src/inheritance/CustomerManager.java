@@ -21,7 +21,7 @@ public class CustomerManager {
 		}
 		
 	
-		//Bulk Insert = Each one customer group adds in loop.
+		//Bulk Insert = Adding multiple customer at the same time.
 		public void addMultiple(Customer [] customers) {
 			for (Customer customer : customers) {
 				add(customer);
