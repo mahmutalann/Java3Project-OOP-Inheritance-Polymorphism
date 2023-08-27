@@ -30,4 +30,4 @@ public class CustomerManager {
 		}
 }
 
-//SOLID O = Open-Closed Principle
+//SOLID O = Open-Closed Principle provides that when added attribute on the system, it can not be changed to available codes.
