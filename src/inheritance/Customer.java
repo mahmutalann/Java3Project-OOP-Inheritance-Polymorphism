@@ -1,10 +1,6 @@
 package inheritance;
 
-public class Customer { //Inheritance provides to listing attributes of other customer in this class. 
+public class Customer { //Inheritance provides that listing attributes of others customer in this class. 
 	int id;
-	String customerNumber;
-
-	
-	
-	
+	String customerNumber;	
 }
